@@ -1,109 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Nexus Sales CRM Extension Privacy Policy</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <title>Privacy Policy – Nexus Sales CRM Extension</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
   <style>
-    body {
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 0 20px;
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      color: #111;
+    :root {
+      /* Nexus Sales CRM brand colors */
+      --primary: #1e4fa3;      /* CRM blue */
+      --primary-dark: #0f2f66; /* deep navy */
+      --text: #0f172a;
+      --muted: #475569;
+      --bg: #f4f7fb;
+      --card: #ffffff;
+      --border: #e2e8f0;
     }
-    h1, h2 {
-      color: #0a3d91;
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Inter, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+
+    .container {
+      max-width: 920px;
+      margin: 48px auto;
+      padding: 0 20px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 48px;
+      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.04);
+    }
+
+    header {
+      margin-bottom: 36px;
+    }
+
+    h1 {
+      margin: 0 0 6px 0;
+      font-size: 2.1rem;
+      font-weight: 700;
+      color: var(--primary);
+    }
+
+    .updated {
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+
+    h2 {
+      margin-top: 36px;
+      margin-bottom: 10px;
+      font-size: 1.35rem;
+      font-weight: 600;
+      color: var(--primary-dark);
+    }
+
+    p {
+      margin: 10px 0;
+    }
+
+    ul {
+      margin: 10px 0 10px 20px;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    strong {
+      font-weight: 600;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .footer {
+      margin-top: 48px;
+      padding-top: 28px;
+      border-top: 1px solid var(--border);
+    }
+
+    .footer h2 {
+      margin-top: 0;
+    }
+
+    @media (max-width: 640px) {
+      .card {
+        padding: 32px 24px;
+      }
+
+      h1 {
+        font-size: 1.75rem;
+      }
     }
   </style>
 </head>
+
 <body>
+  <div class="container">
+    <div class="card">
+      <header>
+        <h1>Privacy Policy</h1>
+        <div class="updated">
+          Nexus Sales CRM Extension · Last updated: December 29, 2025
+        </div>
+      </header>
 
-<h1>Privacy Policy – Nexus Sales CRM Extension</h1>
+      <h2>Overview</h2>
+      <p>
+        The Nexus Sales CRM browser extension (“the Extension”) allows users to
+        transfer form data into their Nexus Sales CRM account. We take user
+        privacy seriously and are committed to protecting any information
+        processed by the Extension.
+      </p>
 
-Privacy Policy – Nexus Sales CRM Extension
-Privacy Policy
+      <h2>Information the Extension Collects</h2>
+      <p>
+        The Extension may collect the following information
+        <strong>only when the user explicitly activates it</strong>:
+      </p>
+      <ul>
+        <li>Form field data visible on the current webpage (e.g., name, email, phone, address)</li>
+        <li>Workflow selection made by the user</li>
+        <li>Nexus Sales CRM API key entered by the user</li>
+      </ul>
+      <p>
+        The Extension does not automatically scrape data. Information is
+        collected only when the user initiates a transfer.
+      </p>
 
-Last updated: December 29, 2025
+      <h2>How Information Is Used</h2>
+      <p>The collected information is used solely to:</p>
+      <ul>
+        <li>Transfer user-selected form data into the user’s Nexus Sales CRM account</li>
+        <li>Associate the data with a selected workflow inside Nexus Sales CRM</li>
+      </ul>
+      <p>The Extension does <strong>not</strong>:</p>
+      <ul>
+        <li>Sell data</li>
+        <li>Share data with third parties</li>
+        <li>Use data for advertising or tracking</li>
+        <li>Store data beyond the immediate transfer operation</li>
+      </ul>
 
-Overview
+      <h2>API Key Handling</h2>
+      <p>
+        The API key is provided directly by the user and is used only to
+        authenticate requests to Nexus Sales CRM. If the user chooses “Save as
+        default,” the API key is stored locally in the browser. The API key is
+        never transmitted to third-party services.
+      </p>
 
-The Nexus Sales CRM browser extension (“the Extension”) is designed to allow users to transfer form data into their Nexus Sales CRM account. We take user privacy seriously and are committed to protecting any information processed by the Extension.
+      <h2>Data Storage</h2>
+      <p>
+        No scraped form data is permanently stored by the Extension. Data exists
+        only temporarily in memory for the purpose of transferring it to Nexus
+        Sales CRM. No analytics, tracking pixels, or third-party scripts are used.
+      </p>
 
-Information the Extension Collects
+      <h2>Permissions Explanation</h2>
+      <p>
+        The Extension requests access to webpage content solely to read form
+        fields selected by the user. It does not monitor browsing activity,
+        keystrokes, or pages unrelated to user actions.
+      </p>
 
-The Extension may collect the following information only when the user explicitly activates it:
+      <h2>Third-Party Services</h2>
+      <p>
+        The Extension communicates only with Nexus Sales CRM servers, as
+        explicitly initiated by the user. No other third-party services are
+        contacted.
+      </p>
 
-Form field data visible on the current webpage (e.g., name, email, phone, address)
+      <h2>Children’s Privacy</h2>
+      <p>
+        The Extension is not intended for use by children under the age of 13 and
+        does not knowingly collect personal data from children.
+      </p>
 
-Workflow selection made by the user
+      <h2>Changes to This Policy</h2>
+      <p>
+        This Privacy Policy may be updated from time to time. Updates will be
+        reflected on this page with a revised “Last updated” date.
+      </p>
 
-Nexus Sales CRM API key entered by the user
-
-The Extension does not automatically scrape data. Data is collected only when the user clicks the transfer button.
-
-How Information Is Used
-
-Collected data is used solely to:
-
-Transfer user-selected form data into the user’s Nexus Sales CRM account
-
-Associate the data with a selected workflow inside Nexus Sales CRM
-
-The Extension does not:
-
-Sell data
-
-Share data with third parties
-
-Use data for advertising or tracking
-
-Store data beyond the immediate transfer operation
-
-API Key Handling
-
-The API key is provided directly by the user.
-
-The API key is used only to authenticate requests to Nexus Sales CRM.
-
-The API key is stored locally in the browser (if the user chooses “Save as default”) and is never transmitted to third-party services.
-
-Data Storage
-
-No scraped form data is permanently stored by the Extension.
-
-Data exists only temporarily in memory for the purpose of transferring it to Nexus Sales CRM.
-
-No analytics, tracking pixels, or third-party scripts are used.
-
-Permissions Explanation
-
-The Extension requests access to webpage content only to read form fields selected by the user. It does not monitor browsing activity, keystrokes, or pages unrelated to user actions.
-
-Third-Party Services
-
-The Extension communicates only with:
-
-Nexus Sales CRM servers, as explicitly initiated by the user
-
-No other third-party services are contacted.
-
-Children’s Privacy
-
-The Extension is not intended for use by children under the age of 13 and does not knowingly collect personal data from children.
-
-Changes to This Policy
-
-This Privacy Policy may be updated from time to time. Updates will be reflected on this page with a revised “Last updated” date.
-
-Contact
-
-If you have any questions about this Privacy Policy or the Extension, you may contact:
-
-Nexus Sales CRM
-Email: support@nexussales.io
-
-Website: https://nexussales.io
+      <div class="footer">
+        <h2>Contact</h2>
+        <p>
+          If you have any questions about this Privacy Policy or the Extension,
+          you may contact:
+        </p>
+        <p>
+          <strong>Nexus Sales CRM</strong><br />
+          Email:
+          <a href="mailto:nexussales.io@gmail.com">nexussales.io@gmail.com</a><br />
+          Website:
+          <a href="https://nexussales.io" target="_blank">https://nexussales.io</a>
+        </p>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
